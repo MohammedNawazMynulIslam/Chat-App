@@ -1,3 +1,4 @@
+import MessageInput from "./MessageInput";
 import Messages from "./Messages";
 
 const MessageContainer = () => {
@@ -9,6 +10,7 @@ const MessageContainer = () => {
         <span className="label-text">To:</span> <span className="text-gray-900 font-bold">John doe</span>
     </div>
     <Messages/>
+    <MessageInput/>
     </>
 
 
